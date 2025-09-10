@@ -31,4 +31,10 @@
         <label>Nuevo problema</label>
         <cssExposed>false</cssExposed>
     </standardValue>
+    <standardValue>
+        <fullName>Bug</fullName>
+        <default>false</default>
+        <label>Bug</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
 </StandardValueSet>
