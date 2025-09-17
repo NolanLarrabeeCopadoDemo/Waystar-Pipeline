@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Profile xmlns="http://soap.sforce.com/2006/04/metadata"
+      xmlns:n1="http://www.w3.org/2001/XMLSchema-instance">
+    <custom>true</custom>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>David__c.Type_of_David__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <layoutAssignments>
+        <layout>David__c-David Layout</layout>
+        <recordType>David__c.Round</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>David__c-David Layout</layout>
+        <recordType>David__c.Square</recordType>
+    </layoutAssignments>
+    <loginHours n1:nil="true" />
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>David__c.Round</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>David__c.Square</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <tabVisibilities>
+        <tab>David__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <userLicense>Salesforce Integration</userLicense>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ApiEnabled</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ApiUserOnly</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ChatterInternalUser</name>
+    </userPermissions>
+</Profile>
