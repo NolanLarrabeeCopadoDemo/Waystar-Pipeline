@@ -9,6 +9,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Nicholas_Object__c.Nicholas_Picklist__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Nick__c.Nick_s_Picklist__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -19,6 +24,14 @@
     <layoutAssignments>
         <layout>Matthew__c-Matthew Layout</layout>
         <recordType>Matthew__c.Standard</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Nicholas_Object__c-Nicholas Object Layout</layout>
+        <recordType>Nicholas_Object__c.Custom</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Nicholas_Object__c-Nicholas Object Layout</layout>
+        <recordType>Nicholas_Object__c.Standard</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Nick__c-Nick Layout</layout>
@@ -49,6 +62,15 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
+        <object>Nicholas_Object__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
         <object>Nick__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
@@ -64,6 +86,16 @@
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
+        <recordType>Nicholas_Object__c.Custom</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Nicholas_Object__c.Standard</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
         <recordType>Nick__c.Custom</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
@@ -74,6 +106,10 @@
     </recordTypeVisibilities>
     <tabVisibilities>
         <tab>Matthew__c</tab>
+        <visibility>DefaultOff</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Nicholas_Object__c</tab>
         <visibility>DefaultOff</visibility>
     </tabVisibilities>
     <tabVisibilities>
