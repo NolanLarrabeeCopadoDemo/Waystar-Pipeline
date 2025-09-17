@@ -17,6 +17,11 @@
         <field>Nick__c.Nick_s_Picklist__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Vepa__c.Vepa_Picklist__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>Matthew__c-Matthew Layout</layout>
         <recordType>Matthew__c.Custom</recordType>
@@ -40,6 +45,14 @@
     <layoutAssignments>
         <layout>Nick__c-Nick Layout</layout>
         <recordType>Nick__c.Standard</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Vepa__c-Vepa Layout</layout>
+        <recordType>Vepa__c.Custom</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Vepa__c-Vepa Layout</layout>
+        <recordType>Vepa__c.Standard</recordType>
     </layoutAssignments>
     <loginHours n1:nil="true" />
     <loginIpRanges>
@@ -74,6 +87,15 @@
         <object>Nick__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Vepa__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Matthew__c.Custom</recordType>
@@ -104,6 +126,16 @@
         <recordType>Nick__c.Standard</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Vepa__c.Custom</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Vepa__c.Standard</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
     <tabVisibilities>
         <tab>Matthew__c</tab>
         <visibility>DefaultOff</visibility>
@@ -114,6 +146,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>Nick__c</tab>
+        <visibility>DefaultOff</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Vepa__c</tab>
         <visibility>DefaultOff</visibility>
     </tabVisibilities>
     <userLicense>Salesforce</userLicense>
