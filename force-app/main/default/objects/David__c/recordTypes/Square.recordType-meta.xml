@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Square</fullName>
+    <active>true</active>
+    <label>Square</label>
+    <picklistValues>
+        <picklist>Type_of_David__c</picklist>
+        <values>
+            <fullName>Blue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Green</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Purple</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tall</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>
