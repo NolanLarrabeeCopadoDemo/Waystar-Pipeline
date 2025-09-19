@@ -1,4 +1,6 @@
+@isTest
 public class AccountHandler_Test {
+    @isTest
     public static void testUpdate(){
         Account acc = new Account(Name='Account 1');
         insert acc;
